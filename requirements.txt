@@ -1,0 +1,31 @@
+# EVSplitting - Requirements for Python Dependencies
+#
+# Installation:
+#   pip install -r requirements.txt
+#
+# Note: PyTorch must be installed separately with CUDA support:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+
+# Core Deep Learning Framework
+# PyTorch should be installed separately with CUDA support
+# torch>=2.0.0
+# torchvision>=0.15.0
+
+# GUI and Visualization
+imgui-bundle>=1.89.0
+
+# Utilities
+click>=8.0.0
+numpy>=1.21.0
+imageio>=2.9.0
+loguru>=0.6.0
+Pillow>=9.0.0
+
+# 3D Utilities
+open3d>=0.15.0
+
+# Optional dependencies for advanced features
+# Uncomment if needed:
+# scipy>=1.7.0          # For scientific computing
+# matplotlib>=3.5.0    # For plotting and visualization
+# tqdm>=4.62.0         # For progress bars

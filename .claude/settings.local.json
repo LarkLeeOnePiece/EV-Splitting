@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(tree:*)",
+      "Bash(timeout 10 python:*)",
+      "WebFetch(domain:dl.acm.org)",
+      "Bash(ls:*)",
+      "Bash(wc:*)"
+    ]
+  }
+}

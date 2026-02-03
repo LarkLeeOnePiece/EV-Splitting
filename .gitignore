@@ -1,0 +1,119 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# CUDA and Build Files
+*.o
+*.a
+*.so
+*.cubin
+*.fatbin
+.build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Data Files (Large)
+*.ply
+*.obj
+*.fbx
+*.glb
+*.gltf
+*.pkl
+*.pth
+*.npz
+*.npy
+
+# Output and Results
+_eval_results/
+_videos/
+_checkpoints/
+*.mp4
+*.avi
+*.mov
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.txt.bak
+
+# Results and Outputs
+results/
+outputs/
+logs/
+experiments/
+checkpoints/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+*.bak
+
+# GPU/CUDA Memory
+*.trace
+*.prof
+
+# Jupyter Notebooks (optional)
+.ipynb_checkpoints/
+*.ipynb
+
+# macOS
+.AppleDouble
+.LSOverride
+._*
+
+# System Files
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Node modules (if using web UI)
+node_modules/
+
+# Local configuration
+local_config.yaml
+config_local.py
