@@ -1,7 +1,5 @@
 # EVSplitting - Interactive 3D Gaussian Splatting with Event-based Splitting
 
-[English](README_EN.md) | [中文](README_CN.md)
-
 <p align="center">
   <img src="resources/images/teaser.png" width="800" alt="EVSplitting Demo"/>
   <br>
