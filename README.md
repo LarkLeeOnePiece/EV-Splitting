@@ -1,36 +1,36 @@
-# EVSplitting - Interactive 3D Gaussian Splatting with Event-based Splitting
+# EVSplitting : An Efficient and Visually Consistent Splitting Algorithm for 3D Gaussian Splatting [paper](https://dl.acm.org/doi/full/10.1145/3680528.3687592)
 
 <p align="center">
-  <img src="resources/images/teaser.png" width="800" alt="EVSplitting Demo"/>
+  <img src="resources/images/evs_demo.gif" width="800" alt="EVSplitting Demo"/>
   <br>
-  <em>Interactive 3D Gaussian Splatting with Event-based Splitting Visualization</em>
+  <em>EV-Splitting Demo Visualization</em>
 </p>
 
 ## About | 关于
 
-**English:** An unofficial open-source implementation of Event-based Gaussian Splitting for 3D Gaussian Splatting, featuring an interactive visualization tool built on Splatviz.
+**English:** An unofficial open-source implementation of Efficient and Visually Consistent Gaussian Splitting for 3D Gaussian Splatting, featuring an interactive visualization tool built on Splatviz.
 
-**中文：** Event-based Gaussian Splitting 的非官方开源实现，基于 Splatviz 构建的交互式 3D Gaussian Splatting 可视化工具。
+**中文：** Efficient and Visually Consistent Gaussian Splitting 的非官方开源实现，基于 Splatviz 构建的交互式 3D Gaussian Splatting 可视化工具。
 
 ---
 
-## 📄 Paper | 论文
+## 📄 Related Paper | 相关论文
 
-**Paper Title (Placeholder):** [论文标题占位符]
-- **Conference:** SIGGRAPH Asia 2024 / ACM Transactions on Graphics
-- **DOI:** [10.1145/3680528.3687592](https://dl.acm.org/doi/full/10.1145/3680528.3687592)
+**RaRa Clipper: A Clipper for Gaussian Splatting Based on Ray Tracer and Rasterizer:** 
+- **Conference:** SIGGRAPH Asia 2025 / ACM Transactions on Graphics
+- **DOI:** [10.1145/3757377.3763982](https://dl.acm.org/doi/full/10.1145/3757377.3763982)
 
 ## 🔗 Based on | 基于
 
 - **[Splatviz](https://github.com/Florian-Barthel/splatviz)** - Interactive 3D Gaussian Splatting Viewer by Florian Barthel
-
+- **[RaRaClipper](https://github.com/LarkLeeOnePiece/Openbase-RaRaClipper)** - Ray-Rasterization-based method for Gaussian Clipping
 ---
 
 ## ✨ Key Features | 核心特性
 
-- 🎯 **Event-based Gaussian Splitting** - CUDA加速的自适应分割算法
+- 🎯 **Efficient and Visually Consistent Gaussian Splitting** - CUDA加速的自适应分割算法
 - 🎨 **Interactive GUI** - 基于ImGui的实时可视化
-- 🧩 **Multi-plane Clipping** - 多平面裁剪与可视化
+- 🧩 **plane Clipping** - 平面裁剪与可视化
 - 💾 **Memory Optimization** - 场景图高效内存管理
 - 📊 **Benefit-Cost Control** - 代理控制的分割策略
 
@@ -40,44 +40,16 @@
 
 ```bash
 # Install dependencies first
-pip install torch torchvision imgui-bundle click numpy imageio loguru Pillow open3d
+The envorinment is similar to splatviz. Please foolow their instruction
 
 # Build CUDA extensions
 cd gaussian-splatting/submodules/ev-splitting && pip install -e .
-cd ../simple-knn && pip install -e .
-cd ../../..
+
 
 # Run the application
 python run_main.py --data_path=/path/to/your/ply/files
 ```
 
----
-
-## 📚 Documentation | 文档
-
-Choose your preferred language to get started:
-
-选择您偏好的语言开始使用：
-
-### 📘 English Documentation
-For detailed installation, usage, and algorithm information, please refer to **[README_EN.md](README_EN.md)**
-
-- Installation Guide | 安装指南
-- Quick Start Tutorial | 快速开始教程
-- EVS Algorithm Explanation | 算法说明
-- GUI Controls Reference | 界面控制说明
-- Examples | 使用示例
-- Citation | 引用信息
-
-### 📗 中文文档
-详细的安装、使用和算法说明，请参考 **[README_CN.md](README_CN.md)**
-
-- 安装指南
-- 快速开始教程
-- EVS 算法说明
-- 界面控制说明
-- 使用示例
-- 引用信息
 
 ---
 
@@ -116,7 +88,7 @@ This project builds upon:
 
 - **[Splatviz](https://github.com/Florian-Barthel/splatviz)** - Interactive viewer
 - **[3D Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting)** - Original implementation by INRIA GRAPHDECO
-- **[diff-gaussian-rasterization](https://github.com/graphdeco-inria/diff-gaussian-rasterization)** - Differentiable rendering core
+- **[RaRaClipper](https://github.com/LarkLeeOnePiece/Openbase-RaRaClipper)** - RaRaClipper core
 
 ---
 
