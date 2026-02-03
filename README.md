@@ -40,7 +40,7 @@
 
 ```bash
 # Install dependencies first
-The envorinment is similar to splatviz. Please foolow their instruction
+The envorinment is similar to splatviz. Please follow their instruction.
 
 # Build CUDA extensions
 cd gaussian-splatting/submodules/ev-splitting && pip install -e .
