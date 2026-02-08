@@ -94,7 +94,7 @@ This project builds upon:
 
 ## 📄 License | 许可证
 
-This project is licensed under the [MIT LICENSE](LICENSE) and [3DGS License](gaussian-splatting\LICENSE.md).
+This project is licensed under the [MIT LICENSE](LICENSE) and [3DGS License](gaussian-splatting/LICENSE.md).
 
 ---
 
