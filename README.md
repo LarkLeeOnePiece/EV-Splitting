@@ -94,11 +94,7 @@ This project builds upon:
 
 ## 📄 License | 许可证
 
-This project is licensed for **non-commercial research and evaluation use only**.
-
-本项目仅供**非商业研究和评估使用**。
-
-For commercial licensing inquiries, please contact the original paper authors.
+This project is licensed under the [MIT LICENSE](LICENSE) and [3DGS License](gaussian-splatting\LICENSE.md).
 
 ---
 
